@@ -8,14 +8,19 @@ Everything inside the triple quotes will be ignored.
 """
 
 """
-This is a script that can be run from the command line.
-This file does not need to be opened to run the script.
+Your script should start with a comment that explains
+what your script does:
+This script converts a list of square foot measurements
+to acres.
+This script can be run from the command line. This file does 
+not need to be open to run the script on the command line.
 Run the script on the command line by navigating to the
 folder that contains this script and
 typing python acre_script.py.
 """
 
-#if you have any modules to import, import them at the top of the script
+#if you have any modules to import, import them at the top of the script,
+#under the comments
 
 #assign any variables here
 test_list = [5000, 6500, 8000, 15251]

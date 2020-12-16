@@ -1,13 +1,7 @@
-#This is a comment. The hashtag at the beginning of the line tells
-#the computer to ignore these lines. You must put a new hashtag
-#for each line.
-
 """
 For longer comments, put them inside triple quotes.
 Everything inside the triple quotes will be ignored.
-"""
 
-"""
 Your script should start with a comment that explains
 what your script does:
 This script converts a list of square foot measurements
@@ -28,14 +22,14 @@ factor = 43560
 
 #include any function definitions here
 def sqft_to_acres(sqft):
-	#this function takes square footage and returns rounded acreage
-	acres = sqft/factor
-	return round(acres, 2)
+    #this function takes square footage and returns rounded acreage
+    acres = sqft / factor
+    return round(acres, 2)
 
 #the rest of your code, including calling any functions, goes here
 for test_value in test_list:
-	answer = sqft_to_acres(test_value)
-	print(str(test_value) + " square feet is " + str(answer) + " acres.")
+    answer = sqft_to_acres(test_value)
+    print(str(test_value) + " square feet is " + str(answer) + " acres.")
 
 
         
